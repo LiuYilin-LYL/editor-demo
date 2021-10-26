@@ -116,7 +116,6 @@ export default {
     };
 
     let submit = function () {
-      // 确认弹窗回调
       if (!readonly.value) {
         if (isEdit.value >= 0) {
           data.splice(
